@@ -1,13 +1,11 @@
 # Interprocess Communication
 
-\section*{Project Structure}
+## Project Structure
 
 This project is organized into three main files:
 
-\begin{itemize}
-  \item \texttt{fun.h}: A header file that contains function declarations, as well as any constants and variables that need to be accessible across all source files.
-  \item \texttt{fun.c}: Implements the functions declared in \texttt{fun.h}.
-  \item \texttt{main.c}: Contains the \texttt{main} function and handles the core functionality of the project based on the assignment requirements.
-\end{itemize}
+- **`fun.h`**: A header file that contains function declarations, as well as any constants and variables that need to be accessible across all source files.
+- **`fun.c`**: Implements the functions declared in `fun.h`.
+- **`main.c`**: Contains the `main` function and handles the core functionality of the project based on the assignment requirements.
 
-A \texttt{Makefile} is also included to streamline the compilation and execution process.
+A **`Makefile`** is also included to simplify the compilation and execution process.
